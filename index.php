@@ -1,17 +1,17 @@
 <?php
 /**
- * @package     Akaunting
- * @copyright   2017-2018 Akaunting. All rights reserved.
+ * @package     Admin Panel
+ * @copyright   2017-2018 Admin Panel. All rights reserved.
  * @license     GNU GPL version 3; see LICENSE.txt
- * @link        https://akaunting.com
+ * @link        https://github.com/dekts
  */
 
 // Define minimum supported PHP version
-define('AKAUNTING_PHP', '5.6.4');
+define('ADMIN_PANEL_PHP', '5.6.4');
 
 // Check PHP version
-if (version_compare(PHP_VERSION, AKAUNTING_PHP, '<')) {
-    die('Your host needs to use PHP ' . AKAUNTING_PHP . ' or higher to run Akaunting');
+if (version_compare(PHP_VERSION, ADMIN_PANEL_PHP, '<')) {
+    die('Your host needs to use PHP ' . ADMIN_PANEL_PHP . ' or higher to run Admin Panel');
 }
 
 // Register the auto-loader

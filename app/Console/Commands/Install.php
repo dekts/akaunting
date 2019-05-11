@@ -59,7 +59,7 @@ class Install extends Command
      *
      * @var string
      */
-    protected $description = 'Allows to install Akaunting directly through CLI';
+    protected $description = 'Allows to install Admin Panel directly through CLI';
 
     /**
      * Create a new command instance.
